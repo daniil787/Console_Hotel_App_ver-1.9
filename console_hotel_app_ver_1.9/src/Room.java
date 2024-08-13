@@ -11,7 +11,7 @@ public class Room implements EntityManagement<Room>, Serializable {
     private float cost;
     private final Hotel hotel;
     private final List<Resident> settlers = new ArrayList<>();
-    static final String FILE_PATH_ROOMS = "C:\\Users\\user\\Documents\\Hotel\\rooms.dat";
+    static final String FILE_PATH_ROOMS = "C:\\Users\\user\\Documents\\rooms.dat";
     public Room(int ID, int numberRoom, int capacity, String typeRoom, float cost, Hotel hotel)
     {
         this.ID = ID;

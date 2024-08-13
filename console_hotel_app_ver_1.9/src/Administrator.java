@@ -6,14 +6,13 @@ import java.io.File;
 import java.io.IOException;
 public class Administrator extends Person implements EntityManagement<Administrator>, Serializable {
     private String shift;
-    private static final String NAME = "Oasis";
     final private Hotel hotel;
     private static final int CHANGE_FULL_NAME = 1;
     private static final int CHANGE_PHONE_NUMBER = 2;
     private static final int CHANGE_ADDRESS = 3;
     private static final int CHANGE_SHIFT = 4;
     private static final int PREVIOUS_MENU = 5;
-    private static final String FILE_PATH_ADMINS = "C:\\Users\\user\\Documents\\Hotel\\administrators.dat";
+    private static final String FILE_PATH_ADMINS = "C:\\Users\\user\\Documents\\administrators.dat";
     public Administrator(String fullName, String phoneNumber, String address, String shift, Hotel hotel) {
         super(fullName, phoneNumber, address);
         this.shift = shift;

@@ -13,7 +13,7 @@ public class Resident extends Person implements EntityManagement<Resident>, Seri
     private static final int CHANGE_ADDRESS = 3;
     private static final int CHANGE_OCCUPIED_TERM = 4;
     private static final int PREVIOUS_MENU = 5;
-    private static final String FILE_PATH_RESIDENTS = "C:\\Users\\user\\Documents\\Hotel\\residents.dat";
+    private static final String FILE_PATH_RESIDENTS = "C:\\Users\\user\\Documents\\residents.dat";
     public Resident(String fullName, String phoneNumber, String  address, int occupiedRoomID, int residenceTerm, Hotel hotel)
     {
         super(fullName, phoneNumber, address);
